@@ -6,11 +6,17 @@
 
     angular
         .module("MyApp")
-        .controller("TestController", ['$scope', TestController]);
+        .controller("TestController", [TestController]);
 
-    function TestController($scope) {
+    function TestController() {
+        var vm = this;
+        var obj = {
+            'one': 1,
+            'two': 2,
+            'three': 3
+        };
 
-
-        $scope.test = 'test';
+        vm.test = 'test';
+        vm.obj = obj;
     }
 })();

@@ -1,14 +1,14 @@
 {
-  "devDependencies":
-    {
-      "jasmine-core": "latest",
-      "karma": "latest",
-      "karma-jasmine": "latest",
-      "phantomjs-prebuilt": "latest",
-      "karma-phantomjs-launcher": "latest"
-    },
-
-    "scripts": {
-        "preinstall": "npm install -g karma-cli"
-    }
+  "devDependencies": {
+    "jasmine-core": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "latest",
+    "karma-spec-reporter-2": "latest"
+  },
+  "scripts": {
+    "preinstall": "npm install -g karma-cli"
+  }
 }

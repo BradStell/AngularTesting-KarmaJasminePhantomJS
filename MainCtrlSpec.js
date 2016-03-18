@@ -4,17 +4,24 @@ describe('Controller: TestController', function () {
 
     beforeEach(module('MyApp'));
 
-    beforeEach(inject(function ($rootScope, $controller) {
-        scope = $rootScope.$new();
+    beforeEach(inject(function ($controller) {
+        //scope = $rootScope.$new();
         TestController = $controller('TestController', {
-            $scope: scope
+            //this: scope
         });
     }));
 
     it('vm should be defined', function () {
-        expect(scope.test).toBeDefined();
+        expect(TestController.test).toBeDefined();
     });
     it('vm should have test data', function() {
-        expect(scope.test).toBe('test');
+        expect(TestController.test).toBe('test');
+    });
+
+    it('obj should exist', function() {
+        expect(TestController.obj).toBeDefined();
+    });
+    it('obj.one should equal 1', function() {
+        expect(TestController.obj.one).toBe(1);
     });
 });
