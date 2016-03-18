@@ -5,7 +5,10 @@
       "karma": "latest",
       "karma-jasmine": "latest",
       "phantomjs-prebuilt": "latest",
-      "karma-phantomjs-launcher": "latest",
-      "karma-cli": "latest"
+      "karma-phantomjs-launcher": "latest"
+    },
+
+    "scripts": {
+        "preinstall": "npm install -g karma-cli"
     }
 }
