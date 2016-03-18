@@ -1,0 +1,10 @@
+{
+  "dependencies":
+    {
+      "jasmine-core": "latest",
+      "karma": "latest",
+      "karma-jasmine": "latest",
+      "phantomjs": "latest",
+      "karma-phantomjs-launcher": "latest"
+    }
+}
