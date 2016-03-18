@@ -4,7 +4,8 @@
       "jasmine-core": "latest",
       "karma": "latest",
       "karma-jasmine": "latest",
-      "phantomjs": "latest",
-      "karma-phantomjs-launcher": "latest"
+      "phantomjs-prebuilt": "latest",
+      "karma-phantomjs-launcher": "latest",
+      "karma-cli": "latest"
     }
 }
